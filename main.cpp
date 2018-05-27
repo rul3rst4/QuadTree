@@ -158,7 +158,6 @@ class QuadTree {
   }
 
   bool insertion(Point *p) {
-    //boundary->printCoordinates();
     if (!this->boundary->contains(p)) {
       return false;
     }
@@ -196,13 +195,7 @@ int main() {
   QuadTree *qt = new QuadTree(boundary, 4);
 
   std::vector <Point*> p;
-
-  /*for (size_t i = 0; i < 500; i++) {
-    p.push_back(new Point(rand()%400, rand()%400));
-    std::cout<<p[i]->getX()<<"\n"<<p[i]->getY()<<std::endl;
-    qt->insertion(p[i]);
-  }*/
-
+ 
   size_t i=0;
 
   while (window.isOpen()) {
