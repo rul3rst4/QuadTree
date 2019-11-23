@@ -1,4 +1,4 @@
 # QuadTree
-c++ QuadTree Algorithm + SFML.
+c++ QuadTree Algorithm in SFML.
 
-If you have SFML installed on Linux, just put this on the terminal (in the right directory): g++ main.cpp -o Quad -lsfml-graphics -lsfml-window -lsfml-system
+Just the algorithm and some sort of visualization of what's going on.
